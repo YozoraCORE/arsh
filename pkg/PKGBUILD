@@ -1,0 +1,23 @@
+# Maintainer: Alex Creio <ctlos@protonmail.com>
+pkgname=ctlcli
+destname="/usr/bin"
+srclang="/usr/share/ctlcli"
+pkgver=0.0.2
+pkgrel=1
+pkgdesc="Ctlos Cli installer"
+arch=('any')
+url="https://github.com/ctlos/ctlcli"
+license=('GPL3')
+makedepends=('git')
+depends=('curl')
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${pkgname}::"git+https://github.com/ctlos/${pkgname}.git")
+sha256sums=('SKIP')
+
+package() {
+    mkdir -p "${pkgdir}${srclang}"
+    mkdir -p "${pkgdir}${destname}"
+    cp -r "${srcdir}/${pkgname}/lang" "${pkgdir}${srclang}"
+    cp -r "${srcdir}/${pkgname}/ctlcli" "${pkgdir}${destname}"
+}
