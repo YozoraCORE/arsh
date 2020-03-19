@@ -1,4 +1,4 @@
-# ArchLinux cli installer - ctlcli
+# Arsh Linux Installer - arsh
 
 Start arsh installer:
 
