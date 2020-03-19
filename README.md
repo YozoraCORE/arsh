@@ -1,9 +1,9 @@
 # ArchLinux cli installer - ctlcli
 
-Start cli installer:
+Start arsh installer:
 
-`wget git.io/ctlcli`
+`wget git.io/miau`
 
-`sh ctlcli`
+`sh arsh`
 
-[Video](https://www.youtube.com/watch?time_continue=1&v=LWTVNIOKxmU)
+[Video](https://www.youtube.com/channel/UC7YtNCqgXo4H3khE6qNLk3g?sub_confirmation=1)
