@@ -2,7 +2,7 @@
 
 Start arsh installer:
 
-`wget git.io/miau`
+`git clone https://github.com/callmezatiel/arsh`
 
 `sh arsh`
 
