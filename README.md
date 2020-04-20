@@ -5,3 +5,4 @@ Start arsh installer:
 `git clone https://github.com/callmezatiel/arsh`
 
 `sh arsh`
+
